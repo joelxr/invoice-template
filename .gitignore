@@ -1,0 +1,9 @@
+node_modules/
+out/
+
+*.aux
+*.log
+*.pdf
+
+values.js
+

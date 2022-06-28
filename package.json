@@ -1,0 +1,19 @@
+{
+  "name": "invoice-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "builder.js",
+  "scripts": {
+    "prestart": "npx rimraf out",
+    "start": "node ./builder.js",
+    "poststart": "pdflatex --output-directory out/ out/invoice.tex"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2"
+  }
+}
